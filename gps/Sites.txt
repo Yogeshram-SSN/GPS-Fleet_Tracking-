@@ -1,0 +1,45 @@
+https://community.appinventor.mit.edu/t/retrieving-gps-data-from-firebase-db/87942
+
+
+
+Sending: AT+CGATT?
+Response: 
++CGATT: 0
+
+OK
+
+Initializing GPS...
+Sending: AT+QGPSEND
+Response: 
+OK
+
+Sending: AT+QGPS=1
+Response: 
+OK
+
+Raw Response: +QGPSLOC: 061800.000,12.88893,80.18901,2.2,-22.5,3,143.09,16.9,9.1,120325,05
+
+OK
+
+Latitude: 12.88893
+Longitude: 80.18901
+-----------------------------------------------
+Data Sent
+Data Sent
+Raw Response: +QGPSLOC: 082154.000,12.88903,80.18882,1.6,-53.1,3,000.00,1.7,0.9,130325,07
+
+OK
+
+Latitude: 12.88903
+Longitude: 80.18882
+Data Sent
+Data Sent
+Raw Response: +QGPSLOC: 082202.000,12.88901,80.18884,1.4,-49.9,3,000.00,2.7,1.4,130325,08
+
+OK
+
+Latitude: 12.88901
+Longitude: 80.18884
+Data Sent
+Data Sent
+Raw Response: +QGPSLOC: 082210.000,12.88898,80.18886,1.4,-53.6,3,000.00,1.1,0.6,130325,08
